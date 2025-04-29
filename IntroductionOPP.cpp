@@ -12,8 +12,13 @@ public :
         cout << "Nama : " << nama << endl;
         cout << "Nilai : " << nilai << endl;
     }
-}
+};
 
 int main() {
+    Mahasiswa mhs;
+    mhs.nim = 2024;
+    mhs.nama = "Faraby";
+    mhs.nilai = 90.5;
 
+    mhs.printData();
 }
